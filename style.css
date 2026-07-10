@@ -872,3 +872,9 @@ footer {
   font-size: .95rem;
 
 }
+html{
+  scroll-behavior: smooth;
+}
+#work {
+  scroll-margin-top: 90px;
+}
