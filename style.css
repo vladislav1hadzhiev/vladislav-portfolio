@@ -760,7 +760,6 @@ nav {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-
 }
 /* ==========================
    FOOTER
@@ -847,6 +846,9 @@ footer {
 }
 .fa-linkedin-in{
       color: #0A66C2;
+}
+.fa-github{
+  font-size: 1.6rem;
 }
 .fa-instagram{
   background: linear-gradient(45deg,
