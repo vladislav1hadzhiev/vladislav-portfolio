@@ -72,41 +72,34 @@ ul {
 ========================================== */
 
 header {
-  width: min(95%, 90rem);
-  margin: 2rem auto;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: min(92%, 1440px);
   padding: 1.1rem 2rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+
   border: 1px solid var(--clr-border);
   border-radius: 2rem;
-  background: rgba(255, 255, 255, 0.65);
-  backdrop-filter: blur(0.75rem);
-  transition: var(--transition);
-  position: sticky;
-  top: 1rem;
+
   z-index: 1000;
-  position: fixed;
-  
-    top: 20px;
-    left: 50%;
-  
-    transform: translateX(-50%);
-  
-    width: 95%;
-    max-width: 1440px;
-  
-    z-index: 1000;
-  
-    transition: transform .35s ease;
-  
-  }
-  
-  .header-hidden {
-  
-    transform: translate(-50%, -150%);
-  
-  }
+
+  box-sizing: border-box;
+  transition: transform 0.35s ease, background 0.3s ease;
+}
+
+/* Скриване при scroll */
+.header-hidden {
+  transform: translate(-50%, -150%);
+}
 body {
 
   padding-top: 120px;
