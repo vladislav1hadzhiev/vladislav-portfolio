@@ -264,8 +264,8 @@ nav {
 }
 .hero-buttons {
   display: flex;
-
-  gap: 6rem;
+  flex-direction: row;
+  gap: 8rem;
 }
 
 .btn {
@@ -287,16 +287,37 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8rem;
+  width: 600px;
+    object-fit: contain;
 }
 
 /* Background Panel */
 
 .hero-image::before {
+background: #fff;
+}
+.hero-image::after {
+
   content: "";
+
   position: absolute;
-  top: -18rem;
-  background: #e8e2e2;
-  z-index: -1;
+
+  width: 220px;
+  height: 220px;
+
+  background: #5EA5D7;
+
+  filter: blur(90px);
+
+  opacity: .35;
+
+  border-radius: 50%;
+
+  top: -40px;
+  right: -20px;
+
+  z-index: -2;
 }
 
 /* Portrait */
@@ -311,7 +332,7 @@ nav {
 
 .background-name {
   position: absolute;
-  left: -5.5rem;
+  left: 13.5rem;
   top: 50%;
   transform: translateY(-50%) rotate(-90deg);
   font-size: 6rem;

@@ -42,7 +42,7 @@
   }
 
   .hero-buttons {
-    gap: 24px;
+    gap: 9rem;
   }
 
   .hero-image img {
@@ -133,8 +133,9 @@
            HERO
         ========================== */
 
-    .container {
-      grid-template-columns: 1fr;
+        .hero .container {
+      display: flex;
+      flex-direction: column;
       gap: 4rem;
     }
 
@@ -153,7 +154,7 @@
     .hero-buttons {
       justify-content: center;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 4rem;
     }
 
     .hero-image {
@@ -218,13 +219,23 @@
       width: 42px;
       height: 42px;
     }
+     .slider-btn.prev {
+  
+       left: -56px;
+  
+     }
+         .slider-btn.next {
+    
+           right: -60px;
+    
+         }
 
     /* ==========================
            FOOTER
         ========================== */
 
     .footer-container {
-      flex-direction: column;
+      display: block;
       gap: 3rem;
       text-align: center;
     }
@@ -234,6 +245,9 @@
       justify-content: center;
       gap: 1.5rem;
     }
+        .social-buttons{
+          margin-top: 1rem;
+        }
   }
 /* =====================================
    MOBILE (480px)
