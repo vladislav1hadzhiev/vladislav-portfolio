@@ -178,16 +178,16 @@ console.log(afterDots);
 
 const header = document.querySelector("header");
 
-window.addEventListener("scroll", function () {
+let lastScroll = 0;
 
-    if (window.scrollY > 50) {
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
 
-        header.classList.add("header-hidden");
+  if (currentScroll > lastScroll && currentScroll > 100) {
+    header.classList.add("header-hidden");
+  } else {
+    header.classList.remove("header-hidden");
+  }
 
-    } else {
-
-        header.classList.remove("header-hidden");
-
-    }
-
+  lastScroll = currentScroll;
 });

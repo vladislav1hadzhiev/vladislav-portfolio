@@ -5,9 +5,9 @@
 @media (max-width: 1200px) {}
   /* Header */
 
-  header {
+  /* header {
     padding: 16px 24px;
-  }
+  } */
 
   nav {
     gap: 40px;
@@ -265,7 +265,7 @@
         padding: 1rem;
 
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     .logo {
@@ -275,7 +275,7 @@
     }
 
     .logo-text {
-        flex-direction: column;
+        flex-direction: row;
         gap: .3rem;
     }
 
@@ -482,4 +482,294 @@
         justify-content: center;
     }
 
+}
+/*============================
+    DESKTOP-WORK
+============================*/
+
+/* ============================
+   WORK - 992px
+============================ */
+
+@media (max-width: 992px) {
+
+  .page-hero {
+    padding: 5rem 0;
+  }
+
+  .page-hero h1 {
+    font-size: 3rem;
+  }
+
+  .page-description {
+    font-size: 1.1rem;
+  }
+
+  .project-preview {
+    padding: 5rem 0;
+  }
+
+  .project-preview .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .project-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .project-tags {
+    gap: .75rem;
+    margin: 1.5rem 0;
+  }
+
+  .project-tags li {
+    padding: .55rem 1rem;
+    font-size: .9rem;
+  }
+
+  /* ============================
+       Natural Eat
+    ============================ */
+
+  .natural-preview {
+    width: 420px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .natural-laptop {
+    width: 100%;
+  }
+  .natural-phone {
+    width: 135px;
+    right: -5px;
+    bottom: -5px;
+  }
+
+  /* ============================
+       Kinly
+    ============================ */
+
+  .kinly-preview img {
+    width: 360px;
+    margin: 0 auto;
+  }
+
+  /* ============================
+       Vacation
+    ============================ */
+
+  .phone-left,
+  .phone-right {
+    width: 165px;
+  }
+
+  .section-divider {
+    width: 90%;
+  }
+}
+/* ============================
+   WORK - 768px
+============================ */
+
+@media (max-width: 768px) {
+
+  .page-hero {
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .page-description {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .project-preview {
+    padding: 4rem 0;
+  }
+
+  .project-preview .container,
+  .project-preview.reverse .container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  /* Връщаме нормалния ред за всички */
+  .project-preview .project-image,
+  .project-preview .project-content,
+  .project-preview.reverse .project-image,
+  .project-preview.reverse .project-content {
+    order: initial;
+  }
+
+  .project-content {
+    text-align: center;
+  }
+
+  .project-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-tags {
+    justify-content: center;
+  }
+
+  .project-content .btn,
+  .project-content .btn-secondary {
+    margin: 0 auto;
+  }
+
+  /* ============================
+       Natural Eat
+    ============================ */
+
+  .natural-preview {
+    width: 360px;
+    height: 260px;
+    margin: 0 auto;
+  }
+
+  .natural-phone {
+    width: 120px;
+    right: -5px;
+    bottom: -5px;
+  }
+
+  /* ============================
+       Kinly
+    ============================ */
+
+  .kinly-preview img {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  /* ============================
+       Vacation
+    ============================ */
+
+  .vacation-preview {
+    justify-content: center;
+  }
+
+  .phone-left,
+  .phone-right {
+    width: 150px;
+  }
+
+  .section-divider {
+    width: 92%;
+  }
+}
+/* ============================
+   WORK - 480px
+============================ */
+
+@media (max-width: 480px) {
+
+  .page-hero {
+    padding: 6rem 0;
+  }
+
+  .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .page-description {
+    font-size: .95rem;
+    line-height: 1.7;
+  }
+
+  .project-preview {
+    padding: .8rem 0;
+  }
+
+  .project-preview .container,
+  .project-preview.reverse .container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .project-content {
+    text-align: center;
+  }
+
+  .project-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .project-content p {
+    font-size: .95rem;
+  }
+
+  .project-tags {
+    justify-content: center;
+    gap: .6rem;
+  }
+
+  .project-tags li {
+    font-size: .85rem;
+    padding: .5rem .9rem;
+  }
+
+ .project-content .btn,
+ .project-content .btn-secondary,
+ .btn-disabled {
+   width: auto;
+   margin: 0 auto;
+ }
+
+  /* ============================
+       Natural Eat
+    ============================ */
+
+  .natural-preview {
+    width: 300px;
+    height: 210px;
+    margin: 0 auto;
+  }
+
+  .natural-phone {
+    width: 95px;
+    right: -5px;
+    bottom: -5px;
+  }
+
+  /* ============================
+       Kinly
+    ============================ */
+
+  .kinly-preview img {
+    width: 260px;
+  }
+
+  /* ============================
+       Vacation
+    ============================ */
+
+  .vacation-preview {
+    justify-content: center;
+  }
+
+  .phone-left,
+  .phone-right {
+    width: 125px;
+  }
+
+  .section-divider {
+    width: 95%;
+  }
 }
