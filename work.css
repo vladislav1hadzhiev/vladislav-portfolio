@@ -270,10 +270,4 @@ ul {
   transition: var(--transition);
   pointer-events: none;
 }
-.section-divider {
-  width: min(92%, 1440px);
-  height: 4px;
-  margin: 2rem auto;
 
-  background: linear-gradient(to right, transparent, #2d8aa4, transparent);
-}

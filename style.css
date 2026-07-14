@@ -605,6 +605,13 @@ background: #fff;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
+.section-divider {
+  width: min(92%, 1440px);
+  height: 4px;
+  margin: 2rem auto;
+
+  background: linear-gradient(to right, transparent, #2d8aa4, transparent);
+}
 .carousel-btn:hover {
   background: #2d8aa4;
   color: white;
