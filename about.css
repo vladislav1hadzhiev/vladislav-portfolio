@@ -156,8 +156,7 @@ body>section.skills-section>div>h2{
     margin-left: 0;
 }
 .gallery img:hover {
-    transform: translateY(-8px);
-    z-index: 2;
+    transform: scale(1.08);
 }
 .container h2{
     font-size: 1.8rem;
@@ -182,14 +181,10 @@ body>section.skills-section>div>h2{
     max-width: 760px;
     margin: 0 auto;
 
-    padding: 4rem;
-    
-        border-radius: 32px;
-    
-        border: 1px solid var(--clr-border);
-    
+    padding: 4rem;    
+        border-radius: 32px;   
+        border: 1px solid var(--clr-border);   
         background: rgba(255, 255, 255, .65);
-    
         backdrop-filter: blur(14px);
 }
 
@@ -224,19 +219,12 @@ body>section.skills-section>div>h2{
 .form-group textarea {
 
     width: 100%;
-
     padding: 1rem 1.25rem;
-
     font: inherit;
-
     border: 1px solid var(--clr-border);
-
     border-radius: 18px;
-
     background: rgba(255, 255, 255, .65);
-
     backdrop-filter: blur(12px);
-
     transition: var(--transition);
 
 }
