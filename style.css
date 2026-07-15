@@ -71,6 +71,34 @@ ul {
    HEADER
 ========================================== */
 
+/* ==========================
+   HAMBURGER MENU
+========================== */
+
+.menu-toggle {
+
+  display: none;
+
+  background: none;
+
+  border: none;
+
+  cursor: pointer;
+
+  font-size: 1.8rem;
+
+  color: var(--clr-text);
+
+  transition: var(--transition);
+
+}
+
+.menu-toggle:hover {
+
+  color: var(--clr-primary);
+
+}
+
 header {
   position: fixed;
   top: 20px;
