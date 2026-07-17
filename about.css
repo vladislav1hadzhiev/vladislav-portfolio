@@ -271,3 +271,25 @@ textarea {
     font-weight: 600;
     position: relative;
 }
+.form-status {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.form-status.show {
+    opacity: 1;
+}
+
+.form-status.success {
+    color: #16a34a;
+}
+
+.form-status.error {
+    color: #dc2626;
+}
+#contact {
+    scroll-margin-top: 120px;
+}

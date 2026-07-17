@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>About | Vladislav Hadzhiev</title>
+    
+    <meta property="og:type" content="website">
+    
+    <meta property="og:title" content="Vladislav Hadzhiev | UX/UI Designer">
+    
+    <meta property="og:description"
+        content="Portfolio showcasing UX/UI design, user research, interaction design and front-end development projects.">
+    
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <meta property="og:url" content="https://vladislav1hadzhiev.github.io/vladislav-portfolio/">
+    
+    <meta property="og:site_name" content="Vladislav Hadzhiev Portfolio">
+
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="Vladislav Hadzhiev | UX/UI Designer">
+    
+    <meta name="twitter:description" content="Portfolio showcasing UX/UI design and front-end development.">
+    
+    <meta name="twitter:image" content="images/og-image.jpg">
+    
     <link rel="icon" type="image/png" href="./logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css">
@@ -263,7 +285,7 @@
     
     <div class="section-divider"></div>
 
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
     
         <div class="container">
     
@@ -326,7 +348,7 @@
                     Send Message
     
                 </button>
-    
+                <p id="form-status" class="form-status"></p>
             </form>
     
         </div>
@@ -354,9 +376,9 @@
     
             <nav class="footer-nav">
     
-                <a href="#index.html">Home</a>
+                <a href="index.html">Home</a>
     
-                <a href="#work.html">Work</a>
+                <a href="work.html">Work</a>
     
                 <a href="#contact" class="active" >About</a>
     
@@ -368,7 +390,7 @@
     
             <div class="social-buttons">
     
-                <a href="www.linkedin.com/in/vladislav-hadzhiev-7416011aa" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/vladislav-hadzhiev-7416011aa/" target="_blank" rel="noopener noreferrer"
                     class="social-button social-button--linkedin" aria-label="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
@@ -392,6 +414,8 @@
     
         </p>
     </footer>
-   <script src="about.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="about.js"></script>
 </body>
 </html>
