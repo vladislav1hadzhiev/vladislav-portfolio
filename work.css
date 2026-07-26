@@ -131,9 +131,9 @@ ul {
 }
 .natural-phone {
   position: absolute;
-  width: 170px;
-  right: 20px;
-  bottom: 10px;
+  width: 100px;
+  right: 100px;
+  bottom: 53px;
   transition: 0.45s ease;
   z-index: 2;
 }
