@@ -63,7 +63,7 @@ ul {
 ========================================== */
 
 .container {
-  width: min(95%, var(--container));
+  width: min(80%, var(--container));
 
   margin-inline: auto;
 }
@@ -242,7 +242,7 @@ menu a.active {
 ========================================== */
 
 .hero {
-  padding: 2rem 0 8rem;
+  padding: 2rem 0 4rem;
 }
 
 .hero .container {
@@ -415,7 +415,7 @@ background: #fff;
 ========================================== */
 
 .focus {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .focus .container {
