@@ -784,14 +784,24 @@ background: #fff;
 }
 
 .btn-project {
+  color: #2D8AA4;
    display: inline-flex;
     height: 2.5rem;
-    padding: 0.5rem 0.75rem;
+    padding: 0.95rem 1.6rem;
     align-items: center;
     gap: 0.6rem;
+    font-family: 1rem;
+}
+.description_better_view {
+  padding-top: .6rem;
+}
+
+.description_better_view i {
+  padding: 6px;
 }
 .btn-project:hover{
-  color: #2D8AA4;
+  background: var(--clr-primary);
+  color: white;
 }
 .research-note {
   display: block;
