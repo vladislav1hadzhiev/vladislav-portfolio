@@ -870,7 +870,9 @@ footer {
   transition: .3s ease;
 
 }
-
+/* .certificate{
+  visibility: hidden;
+} */
 .footer-nav a:hover {
   color: #4F90B1;
 
@@ -933,4 +935,27 @@ html{
 }
 #work {
   scroll-margin-top: 90px;
+}
+@media print {
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 40px !important;
+    flex-wrap: nowrap !important;
+    width: max-content !important;
+  }
+
+  .hero-buttons .btn {
+    display: inline-flex !important;
+    flex: 0 0 155px !important;
+    width: 155px !important;
+    min-width: 155px !important;
+    height: 60px !important;
+    padding: 0 20px !important;
+    white-space: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+  }
 }
