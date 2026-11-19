@@ -958,4 +958,40 @@ html{
     align-items: center !important;
     box-sizing: border-box !important;
   }
+    .hero-title {
+      font-size: 48px !important;
+      line-height: 1.12 !important;
+      margin-bottom: 0.8rem !important;
+      width: 100% !important;
+    }
+  
+    .hero-title span,
+    .hero-title strong {
+      display: block !important;
+      font-size: 48px !important;
+      line-height: 1.12 !important;
+      white-space: nowrap !important;
+    }
+  
+    .hero-description {
+      font-size: 20px !important;
+      line-height: 1.5 !important;
+      max-width: 480px !important;
+      width: 480px !important;
+    }
+  
+    .hero-buttons {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      gap: 40px !important;
+    }
+  
+    .hero-buttons .btn {
+      flex: 0 0 155px !important;
+      width: 155px !important;
+      min-width: 155px !important;
+      white-space: nowrap !important;
+    }
+  
 }
